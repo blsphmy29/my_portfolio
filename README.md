@@ -1,2 +1,2 @@
-# blsphmy29-github.io-porfolio
+# porfolio
 My portfolio
