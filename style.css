@@ -47,7 +47,7 @@ header p {
   transform: scale(1.08);
 }
 
-/* CONTENT SECTION */
+/* Content Section */
 section {
   max-width: 900px;
   margin: 60px auto;
@@ -60,7 +60,7 @@ section {
   margin: 0 auto;       /* optional: centers block itself */
 }
 
-/* GLASS CARDS */
+/* Glassmorphism effect */
 .card {
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(10px);
@@ -80,7 +80,6 @@ section {
   line-height: 1.7;
 }
 
-/* FOOTER */
 footer {
   text-align: center;
   padding: 30px;
