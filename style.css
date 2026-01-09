@@ -80,10 +80,15 @@ section {
 }
 
 .card ul {
-  margin: 0;
-  padding-left: 0;
   opacity: 0.85;
   line-height: 1.7;
+  list-style: none;
+}
+
+.card ul li::before {
+  content: "• ";
+  color: #fff;       /* bullet color */
+  font-weight: bold;
 }
 
 a {
