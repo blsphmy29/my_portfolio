@@ -26,6 +26,28 @@ header p {
   opacity: 0.8;
 }
 
+/* Make nav menu horizontal */
+.nav-menu {
+  display: flex;            /* flexbox to arrange items in a row */
+  gap: 30px;                /* space between each menu item */
+  list-style: none;         /* remove bullets */
+  padding: 0;               /* remove default padding */
+  margin: 20px 0 0 0;       /* optional: spacing from top */
+}
+
+/* Style links */
+.nav-menu li a {
+  color: white;             /* text color */
+  text-decoration: none;    /* remove underline */
+  font-weight: 600;
+  transition: color 0.3s;   /* smooth hover effect */
+}
+
+/* Hover effect */
+.nav-menu li a:hover {
+  color: #4ca1af;           /* change color on hover */
+}
+
 /* Profile Image */
 .profile {
   display: flex;
