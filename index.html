@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Rogen H. Rosal Portfolio</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -13,24 +13,47 @@
 </head>
 <body>
 
+  <!-- Header -->
   <header>
-    <h1>Rogen H. Rosal</h1>
-    <p>Student • Developer • Creator</p>
+    <!-- Clickable Name -->
+    <h1><a href="#home">Rogen H. Rosal</a></h1>
 
+    <!-- Clickable Subtitle -->
+    <p>
+      <a href="#about">Student</a> • 
+      <a href="#projects">Developer</a> • 
+      <a href="#contact">Creator</a>
+    </p>
+
+    <!-- Navigation Menu -->
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Profile Image -->
     <div class="profile">
       <img src="Rosal_Photo.jpg" alt="Profile Picture">
     </div>
   </header>
 
-  <section>
-    <div class="card">
+  <!-- Main Content -->
+  <section id="home">
+    
+    <!-- About Me -->
+    <div class="card" id="about">
       <h2>About Me</h2>
       <p class="justified-text">
         I am passionate about technology and creativity, and I enjoy learning new things every day. I like building projects that challenge me and help me grow, whether it’s designing websites or experimenting with code. Through continuous practice and curiosity, I am always working on improving my skills and expanding my knowledge.
       </p>
     </div>
 
-    <div class="card">
+    <!-- Projects -->
+    <div class="card" id="projects">
       <h2>Projects</h2>
       <ul>
         <li><a href="mini-js-games.html">Mini JavaScript games</a></li>
@@ -39,15 +62,18 @@
       </ul>
     </div>
 
-    <div class="card">
+    <!-- Contact -->
+    <div class="card" id="contact">
       <h2>Contact</h2>
       <p>
-        Email: rosalrogen29@gmail.com<br>
-        GitHub: github.com/blsphmy29
+        Email: <a href="mailto:rosalrogen29@gmail.com">rosalrogen29@gmail.com</a><br>
+        GitHub: <a href="https://github.com/blsphmy29" target="_blank">github.com/blsphmy29</a>
       </p>
     </div>
+
   </section>
 
+  <!-- Footer -->
   <footer>
     © 2026 Rogen H. Rosal. All rights reserved.
   </footer>
