@@ -79,11 +79,23 @@ section {
   line-height: 1.7;
 }
 
-.card li {
-  color: white;
+.card ul {
+  margin: 0;
+  padding-left: 0;
   opacity: 0.85;
   line-height: 1.7;
-  text-decoration: none;
+}
+
+a {
+  color: white;          
+  text-decoration: none; 
+  transition: color 0.3s; 
+}
+
+/* Add hover effect to indicate it's clickable */
+a:hover {
+  color: #4ca1af;       
+  text-decoration: underline; 
 }
 
 footer {
