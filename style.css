@@ -11,7 +11,6 @@ body {
   min-height: 100vh;
 }
 
-/* HEADER */
 header {
   text-align: center;
   padding: 40px;
@@ -27,7 +26,7 @@ header p {
   opacity: 0.8;
 }
 
-/* PROFILE IMAGE */
+/* Profile Image */
 .profile {
   display: flex;
   justify-content: center;
@@ -55,9 +54,9 @@ section {
 }
 
 .justified-text {
-  text-align: justify;   /* centers the text horizontally */
-  max-width: 800px;     /* optional: limits width for readability */
-  margin: 0 auto;       /* optional: centers block itself */
+  text-align: justify;   
+  max-width: 800px;     
+  margin: 0 auto;       
 }
 
 /* Glassmorphism effect */
