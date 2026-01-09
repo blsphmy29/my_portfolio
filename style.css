@@ -79,6 +79,11 @@ section {
   line-height: 1.7;
 }
 
+.card ul {
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
 footer {
   text-align: center;
   padding: 30px;
