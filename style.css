@@ -38,8 +38,8 @@ header p {
 }
 
 .profile img {
-  width: 180px;
-  height: 180px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid rgba(255, 255, 255, 0.6);
@@ -53,10 +53,9 @@ header p {
 .nav-menu {
   display: flex;  
   justify-content: center;         
-  gap: 100px;               
-  list-style: none;      
-  padding: 0;            
-  margin: 40px 0 0 0;  
+  gap: 200px;               
+  list-style: none;                
+  margin: 30px 0 0 0;  
 }
 
 .nav-menu li a {
@@ -76,16 +75,17 @@ header p {
 
 /* Content Section */
 section {
-  max-width: 900px;
-  margin: 40px auto;
+  max-width: 1600px;
+  margin: 0px auto;
   padding: 0 20px;
 }
 
-/* Justified-text on About Me Section */
+.font-size-20px {
+  font-size: 20px;
+}
+
 .justified-text {
-  text-align: justify;   
-  max-width: 800px;     
-  margin: 0 auto;       
+  text-align: justify;       
 }
 
 /* Glassmorphism effect */
